@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: RobotAnimationTest01.ma
-//Last modified: Fri, Apr 26, 2024 12:06:37 PM
+//Last modified: Fri, Apr 26, 2024 12:21:47 PM
 //Codeset: 1252
 file -rdi 1 -ns "Lab1Proj" -rfn "Lab1ProjRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Theta Rich/GitHubStuff/University/LabSpring2024/Lab1//Lab1Proj.ma";
 file -r -ns "Lab1Proj" -dr 1 -rfn "Lab1ProjRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Theta Rich/GitHubStuff/University/LabSpring2024/Lab1//Lab1Proj.ma";
@@ -14,21 +14,21 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "5E889262-4514-9D7A-BCF5-A3AEA8F3EC8B";
+fileInfo "UUID" "EB4CFED5-4E8D-FED8-F7F2-C8835A460223";
 createNode transform -s -n "persp";
 	rename -uid "E62383D5-4105-03F0-4AB5-E892450226B0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.6799306783795878 6.647575471132134 53.855084980106305 ;
-	setAttr ".r" -type "double3" -2.1383527293064115 -1077.3999999998118 1.2436844587995783e-17 ;
+	setAttr ".t" -type "double3" 29.054919500163635 13.44226446991261 38.133787213980966 ;
+	setAttr ".r" -type "double3" -9.9383527293053628 -684.19999999953257 -9.8036511030831848e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DC1668E3-46EB-6D78-6378-EBA06F88DC68";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 52.764416904991137;
+	setAttr ".coi" 44.598402919317373;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 2.5637903653751701 0.60837290813762479 -2.8298655962800234 ;
+	setAttr ".tp" -type "double3" 6.9548260666458006 14.368356946591717 2.2613472249663271 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "CEA42F35-4D2E-AF6C-1AAB-F0974EC876A7";
@@ -164,7 +164,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".st" 6;
 createNode reference -n "Lab1ProjRN";
 	rename -uid "4E0787AF-472D-7CA8-79F6-DFAD50399278";
-	setAttr -s 54 ".phl";
+	setAttr -s 123 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -219,10 +219,79 @@ createNode reference -n "Lab1ProjRN";
 	setAttr ".phl[52]" 0;
 	setAttr ".phl[53]" 0;
 	setAttr ".phl[54]" 0;
+	setAttr ".phl[55]" 0;
+	setAttr ".phl[56]" 0;
+	setAttr ".phl[57]" 0;
+	setAttr ".phl[58]" 0;
+	setAttr ".phl[59]" 0;
+	setAttr ".phl[60]" 0;
+	setAttr ".phl[61]" 0;
+	setAttr ".phl[62]" 0;
+	setAttr ".phl[63]" 0;
+	setAttr ".phl[64]" 0;
+	setAttr ".phl[65]" 0;
+	setAttr ".phl[66]" 0;
+	setAttr ".phl[67]" 0;
+	setAttr ".phl[68]" 0;
+	setAttr ".phl[69]" 0;
+	setAttr ".phl[70]" 0;
+	setAttr ".phl[71]" 0;
+	setAttr ".phl[72]" 0;
+	setAttr ".phl[73]" 0;
+	setAttr ".phl[74]" 0;
+	setAttr ".phl[75]" 0;
+	setAttr ".phl[76]" 0;
+	setAttr ".phl[77]" 0;
+	setAttr ".phl[78]" 0;
+	setAttr ".phl[79]" 0;
+	setAttr ".phl[80]" 0;
+	setAttr ".phl[81]" 0;
+	setAttr ".phl[82]" 0;
+	setAttr ".phl[83]" 0;
+	setAttr ".phl[84]" 0;
+	setAttr ".phl[85]" 0;
+	setAttr ".phl[86]" 0;
+	setAttr ".phl[87]" 0;
+	setAttr ".phl[88]" 0;
+	setAttr ".phl[89]" 0;
+	setAttr ".phl[90]" 0;
+	setAttr ".phl[91]" 0;
+	setAttr ".phl[92]" 0;
+	setAttr ".phl[93]" 0;
+	setAttr ".phl[94]" 0;
+	setAttr ".phl[95]" 0;
+	setAttr ".phl[96]" 0;
+	setAttr ".phl[97]" 0;
+	setAttr ".phl[98]" 0;
+	setAttr ".phl[99]" 0;
+	setAttr ".phl[100]" 0;
+	setAttr ".phl[101]" 0;
+	setAttr ".phl[102]" 0;
+	setAttr ".phl[103]" 0;
+	setAttr ".phl[104]" 0;
+	setAttr ".phl[105]" 0;
+	setAttr ".phl[106]" 0;
+	setAttr ".phl[107]" 0;
+	setAttr ".phl[108]" 0;
+	setAttr ".phl[109]" 0;
+	setAttr ".phl[110]" 0;
+	setAttr ".phl[111]" 0;
+	setAttr ".phl[112]" 0;
+	setAttr ".phl[113]" 0;
+	setAttr ".phl[114]" 0;
+	setAttr ".phl[115]" 0;
+	setAttr ".phl[116]" 0;
+	setAttr ".phl[117]" 0;
+	setAttr ".phl[118]" 0;
+	setAttr ".phl[119]" 0;
+	setAttr ".phl[120]" 0;
+	setAttr ".phl[121]" 0;
+	setAttr ".phl[122]" 0;
+	setAttr ".phl[123]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Lab1ProjRN"
 		"Lab1ProjRN" 0
-		"Lab1ProjRN" 86
+		"Lab1ProjRN" 155
 		2 "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:Transform_CtrlShape" 
 		"overrideEnabled" " 1"
 		2 "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl" 
@@ -281,7 +350,7 @@ createNode reference -n "Lab1ProjRN";
 		2 "Lab1Proj:Jnt_Layer" "displayType" " 2"
 		2 "Lab1Proj:Jnt_Layer" "visibility" " 0"
 		2 "Lab1Proj:Ctrl_Layer" "displayType" " 0"
-		2 "Lab1Proj:Ctrl_Layer" "visibility" " 0"
+		2 "Lab1Proj:Ctrl_Layer" "visibility" " 1"
 		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl.translateX" 
 		"Lab1ProjRN.placeHolderList[1]" ""
 		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl.translateY" 
@@ -354,42 +423,180 @@ createNode reference -n "Lab1ProjRN";
 		"Lab1ProjRN.placeHolderList[35]" ""
 		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[36]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:Head_Ctrl_Grp|Lab1Proj:Head_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[37]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:Head_Ctrl_Grp|Lab1Proj:Head_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[38]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateZ" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:Head_Ctrl_Grp|Lab1Proj:Head_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[39]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[40]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[41]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateZ" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[42]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[43]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[44]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateZ" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[45]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[46]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[47]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateZ" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Upper_Arm_Ctrl_Grp|Lab1Proj:R_Upper_Arm_Ctrl|Lab1Proj:R_Lower_Arm_Ctrl_Grp|Lab1Proj:R_Lower_Arm_Ctrl|Lab1Proj:R_Palm_Ctrl_Grp|Lab1Proj:R_Palm_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[48]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[49]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[50]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateZ" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl.rotateZ" 
 		"Lab1ProjRN.placeHolderList[51]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl|Lab1Proj:L_Palm_Ctrl_Grp|Lab1Proj:L_Palm_Ctrl.rotateX" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateX" 
 		"Lab1ProjRN.placeHolderList[52]" ""
-		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl|Lab1Proj:L_Palm_Ctrl_Grp|Lab1Proj:L_Palm_Ctrl.rotateY" 
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateY" 
 		"Lab1ProjRN.placeHolderList[53]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[54]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl|Lab1Proj:L_Palm_Ctrl_Grp|Lab1Proj:L_Palm_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[55]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl|Lab1Proj:L_Palm_Ctrl_Grp|Lab1Proj:L_Palm_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[56]" ""
 		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Upper_Arm_Ctrl_Grp|Lab1Proj:L_Upper_Arm_Ctrl|Lab1Proj:L_Lower_Arm_Ctrl_Grp|Lab1Proj:L_Lower_Arm_Ctrl|Lab1Proj:L_Palm_Ctrl_Grp|Lab1Proj:L_Palm_Ctrl.rotateZ" 
-		"Lab1ProjRN.placeHolderList[54]" "";
+		"Lab1ProjRN.placeHolderList[57]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[58]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[59]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[60]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl|Lab1Proj:R_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[61]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl|Lab1Proj:R_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[62]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_01_Ctrl|Lab1Proj:R_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Thumb_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[63]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[64]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[65]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[66]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[67]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[68]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[69]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[70]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[71]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_01_Ctrl|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_02_Ctrl|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_01_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[72]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[73]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[74]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[75]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[76]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[77]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[78]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[79]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[80]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_01_Ctrl|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_02_Ctrl|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_02_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[81]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[82]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[83]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[84]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[85]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[86]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[87]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[88]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[89]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_01_Ctrl|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_02_Ctrl|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:R_Finger_03_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[90]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[91]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[92]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[93]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl|Lab1Proj:L_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[94]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl|Lab1Proj:L_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[95]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Thumb_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_01_Ctrl|Lab1Proj:L_Thumb_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Thumb_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[96]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[97]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[98]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[99]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[100]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[101]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[102]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[103]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[104]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_01_Ctrl|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_02_Ctrl|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_01_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[105]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[106]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[107]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[108]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[109]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[110]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[111]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[112]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[113]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_01_Ctrl|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_02_Ctrl|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_02_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[114]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[115]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[116]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[117]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[118]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[119]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[120]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl.rotateZ" 
+		"Lab1ProjRN.placeHolderList[121]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl.rotateX" 
+		"Lab1ProjRN.placeHolderList[122]" ""
+		5 4 "Lab1ProjRN" "|Lab1Proj:Robot|Lab1Proj:Controls|Lab1Proj:Transform_Ctrl|Lab1Proj:COG_Ctrl_Grp|Lab1Proj:COG_Ctrl|Lab1Proj:Accordian_Ctrl_Grp|Lab1Proj:Accordian_Ctrl|Lab1Proj:Lower_Torso_Ctrl_Grp|Lab1Proj:Lower_Torso_Ctrl|Lab1Proj:Upper_Torso_Ctrl_Grp|Lab1Proj:Upper_Torso_Ctrl|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_01_Ctrl|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_02_Ctrl|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl_Grp|Lab1Proj:L_Finger_03_Knuckle_03_Ctrl.rotateY" 
+		"Lab1ProjRN.placeHolderList[123]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode animCurveTL -n "Hip_Ctrl_translateX";
@@ -889,16 +1096,435 @@ createNode animCurveTA -n "R_Palm_Ctrl_rotateZ";
 	setAttr -s 16 ".ktv[0:15]"  8 0 11 -11.959 20 0 25 0 28 -7.753 30 -7.753
 		 32 6.658 35 -0.598 38 -2.995 41 21.67 45 22.169503990281196 50 14.069460982793366
 		 54 -24.250428289443406 58 19.037816067136493 62 -9.0864649961015722 67 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_01_Ctrl_rotateX";
+	rename -uid "4BA038E0-4D3E-DE47-DB58-3AA642FF2843";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_01_Ctrl_rotateY";
+	rename -uid "8280A5DF-4F18-D3E2-E5BF-958536FE079D";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "4BB9271F-4696-3EAB-7CD0-399CA2124D26";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_02_Ctrl_rotateX";
+	rename -uid "33B4E410-4787-158A-F7E8-E68D78BC18FD";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_02_Ctrl_rotateY";
+	rename -uid "D0E39C8E-48DD-51A3-7E3D-BEB5C0E08C21";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "9473CEFD-4CAF-1971-9C5D-D3B57FCCB508";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_03_Ctrl_rotateX";
+	rename -uid "572291CB-4A67-207F-5CEE-39921C6F5590";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_03_Ctrl_rotateY";
+	rename -uid "C849C01E-4E92-34E6-5F1F-7DB154235885";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_01_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "D9775400-42C3-78EA-4689-65AA18A0C5A4";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_01_Ctrl_rotateX";
+	rename -uid "5F4DA3CB-4D13-D926-DE1F-ECA32847E035";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_01_Ctrl_rotateY";
+	rename -uid "593261CB-428C-077C-80AC-7E91231EC738";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "77F42521-4F76-503B-E07E-98B4A467AA96";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_02_Ctrl_rotateX";
+	rename -uid "5C0C3E35-4656-F4D5-52DA-C49758CD0CB0";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_02_Ctrl_rotateY";
+	rename -uid "03229213-4C2E-D967-66B5-31BDBF14F735";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "66C2FB02-40DB-7BB3-48FF-45B96C494E1E";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_03_Ctrl_rotateX";
+	rename -uid "13843556-4167-2D8B-2D8C-60AE67760EDB";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_03_Ctrl_rotateY";
+	rename -uid "93FE65FE-4B0B-3E1E-894E-3CA6915C6C50";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_02_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "13D95FD1-44E9-AE8F-80D1-1E86EC7E9426";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_01_Ctrl_rotateX";
+	rename -uid "088E9B59-4367-4A7E-0FA4-8794DAE2F2C9";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_01_Ctrl_rotateY";
+	rename -uid "4C0A0037-449B-C486-84FD-A883F050B325";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "16CEC246-48D5-A6BB-0A66-2696D4267462";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_02_Ctrl_rotateX";
+	rename -uid "873B64BC-4F5E-9602-3FD3-DDB169D1487A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_02_Ctrl_rotateY";
+	rename -uid "B5E5562B-4717-41B9-32CC-0B9E868AEEAF";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "6F1DE64C-4A2C-21F0-8911-75925C6AC658";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_03_Ctrl_rotateX";
+	rename -uid "587E9C76-423B-F3F7-6987-76BF20E1147C";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_03_Ctrl_rotateY";
+	rename -uid "8BA7D129-424A-948C-FB1A-7585FBE0D5AB";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Finger_03_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "1591331A-413F-5178-E662-F487CACEABEB";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "L_Thumb_Knuckle_01_Ctrl_rotateX";
+	rename -uid "6DAD89D4-4948-01F1-3CAE-E5A344C756B3";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 48.75291369439821 8 48.75291369439821
+		 13 0;
+	setAttr -s 3 ".kit[1:2]"  1 10;
+	setAttr -s 3 ".kot[1:2]"  1 10;
+	setAttr -s 3 ".kix[1:2]"  0.35340328289116896 0.23781481620770759;
+	setAttr -s 3 ".kiy[1:2]"  -0.93547106830823179 -0.97131051327167994;
+	setAttr -s 3 ".kox[1:2]"  0.3534032828911689 0.23781481620770759;
+	setAttr -s 3 ".koy[1:2]"  -0.93547106830823168 -0.97131051327167994;
+createNode animCurveTA -n "L_Thumb_Knuckle_01_Ctrl_rotateY";
+	rename -uid "90524493-47AF-B490-7B0F-9EA3E93CE90A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 16.403832712472052 8 16.403832712472052
+		 13 0;
+	setAttr -s 3 ".kit[1:2]"  1 10;
+	setAttr -s 3 ".kot[1:2]"  1 10;
+	setAttr -s 3 ".kix[1:2]"  0.59237193322341219 0.58838318934163381;
+	setAttr -s 3 ".kiy[1:2]"  -0.80566462794959381 -0.80858222989388484;
+	setAttr -s 3 ".kox[1:2]"  0.59237193322341219 0.58838318934163381;
+	setAttr -s 3 ".koy[1:2]"  -0.80566462794959381 -0.80858222989388484;
+createNode animCurveTA -n "L_Thumb_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "A10AC7D4-41E6-7192-6257-C0A891FDA6D9";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 63.370920556513497 8 63.370920556513497
+		 13 0;
+	setAttr -s 3 ".kit[1:2]"  1 10;
+	setAttr -s 3 ".kot[1:2]"  1 10;
+	setAttr -s 3 ".kix[1:2]"  0.74852055216740276 0.18510601706805352;
+	setAttr -s 3 ".kiy[1:2]"  -0.66311159165181721 -0.98271855708804123;
+	setAttr -s 3 ".kox[1:2]"  0.74852055216740276 0.18510601706805352;
+	setAttr -s 3 ".koy[1:2]"  -0.66311159165181721 -0.98271855708804123;
+createNode animCurveTA -n "L_Thumb_Knuckle_02_Ctrl_rotateX";
+	rename -uid "483FC069-44D7-4CA2-E0F9-8CB247F23965";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Thumb_Knuckle_02_Ctrl_rotateY";
+	rename -uid "926CE1BC-42CE-4D1A-2F91-7DA594A4FB34";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "L_Thumb_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "4A0292CB-4701-D2DA-95D7-6FB9D80450B1";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 70.830715504084182 8 70.830715504084182
+		 13 0;
+createNode animCurveTA -n "R_Thumb_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "3B3BB000-4218-0FE5-AC8B-FDAE1B4E4C92";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 70.830715504084182 8 70.830715504084182
+		 13 0;
+createNode animCurveTA -n "R_Thumb_Knuckle_02_Ctrl_rotateX";
+	rename -uid "B9550AFE-4ECB-6500-3C13-EDB13ABC9285";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Thumb_Knuckle_02_Ctrl_rotateY";
+	rename -uid "33E18A19-43CD-3E63-6186-AB87ABB4EA3E";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Thumb_Knuckle_01_Ctrl_rotateX";
+	rename -uid "2613A128-44B1-E243-50C3-83AC7BBA6473";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 48.75291369439821 8 48.75291369439821
+		 13 0;
+	setAttr -s 3 ".kit[2]"  10;
+	setAttr -s 3 ".kot[2]"  10;
+	setAttr -s 3 ".kix[0:2]"  0.35340328289116896 0.35340328289116896 
+		0.23781481620770759;
+	setAttr -s 3 ".kiy[0:2]"  -0.93547106830823179 -0.93547106830823179 
+		-0.97131051327167994;
+	setAttr -s 3 ".kox[0:2]"  0.3534032828911689 0.3534032828911689 0.23781481620770759;
+	setAttr -s 3 ".koy[0:2]"  -0.93547106830823168 -0.93547106830823168 
+		-0.97131051327167994;
+createNode animCurveTA -n "R_Thumb_Knuckle_01_Ctrl_rotateY";
+	rename -uid "19ECA45E-4E4A-C3E1-AA2B-2A8303121C79";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 16.403832712472052 8 16.403832712472052
+		 13 0;
+	setAttr -s 3 ".kit[2]"  10;
+	setAttr -s 3 ".kot[2]"  10;
+	setAttr -s 3 ".kix[0:2]"  0.59237193322341219 0.59237193322341219 
+		0.58838318934163381;
+	setAttr -s 3 ".kiy[0:2]"  -0.80566462794959381 -0.80566462794959381 
+		-0.80858222989388484;
+	setAttr -s 3 ".kox[0:2]"  0.59237193322341219 0.59237193322341219 
+		0.58838318934163381;
+	setAttr -s 3 ".koy[0:2]"  -0.80566462794959381 -0.80566462794959381 
+		-0.80858222989388484;
+createNode animCurveTA -n "R_Thumb_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "997DA7C5-49BD-45FD-F5F9-6299ADFFE5E6";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 63.370920556513497 8 63.370920556513497
+		 13 0;
+	setAttr -s 3 ".kit[2]"  10;
+	setAttr -s 3 ".kot[2]"  10;
+	setAttr -s 3 ".kix[0:2]"  0.74852055216740276 0.74852055216740276 
+		0.18510601706805352;
+	setAttr -s 3 ".kiy[0:2]"  -0.66311159165181721 -0.66311159165181721 
+		-0.98271855708804123;
+	setAttr -s 3 ".kox[0:2]"  0.74852055216740276 0.74852055216740276 
+		0.18510601706805352;
+	setAttr -s 3 ".koy[0:2]"  -0.66311159165181721 -0.66311159165181721 
+		-0.98271855708804123;
+createNode animCurveTA -n "R_Finger_01_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "65545F23-4DDF-185C-B15F-E18E0200523D";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_03_Ctrl_rotateX";
+	rename -uid "733BC13E-4F72-C1D3-16E0-AFA3069F018E";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_03_Ctrl_rotateY";
+	rename -uid "E337E6A6-4F35-7EA6-9BBE-D8A65854ECA5";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "607856D2-4379-13C8-8B8B-66930DCBFCFE";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_02_Ctrl_rotateX";
+	rename -uid "62317F6E-48CB-924C-69DE-C08FA2BECF89";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_02_Ctrl_rotateY";
+	rename -uid "3B8FD177-4437-B0D5-DA2C-4FB971FF010A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "E3AD83D3-4E90-DE5E-8D33-F1A4930EA7A6";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_01_Ctrl_rotateX";
+	rename -uid "C0082EB5-49D2-4532-4632-1298E5CE69B6";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_01_Knuckle_01_Ctrl_rotateY";
+	rename -uid "B1B2FA5C-497D-8AF8-3EC3-E0BE5079BE94";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "A1D471C2-4A99-1BBE-B93A-00B26BA4C2A3";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_03_Ctrl_rotateX";
+	rename -uid "3240E3FF-44C4-08AC-F494-5D8A1BA1EA87";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_03_Ctrl_rotateY";
+	rename -uid "3BC9C32D-4EAA-8D0B-B24C-CC98A5601064";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "5F10226C-4CF2-FA55-9602-CBB55047CA38";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_02_Ctrl_rotateX";
+	rename -uid "0BE7CEB5-4E6E-6AE6-7B86-16AA46182C86";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_02_Ctrl_rotateY";
+	rename -uid "4EE56CFC-48D6-0B2A-F8D2-A59A7B04798B";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "B274EF7F-41BE-D8CC-13EA-948632447E16";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_01_Ctrl_rotateX";
+	rename -uid "5388AAE3-4905-5CE7-7A06-41943C2D124C";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_02_Knuckle_01_Ctrl_rotateY";
+	rename -uid "F1841001-4040-2152-DDBD-DE9AEE9A4AD2";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_03_Ctrl_rotateZ";
+	rename -uid "B73E5A51-4CFE-8609-3857-1BBEE4E87A40";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_03_Ctrl_rotateX";
+	rename -uid "D9087A4E-4894-EA76-2A97-2F9A9CF5A934";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_03_Ctrl_rotateY";
+	rename -uid "87830C6E-46B7-CD53-016E-08A8B9267D0F";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_02_Ctrl_rotateZ";
+	rename -uid "FB40E7AA-4060-D640-1C86-1D8A3600FFAB";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_02_Ctrl_rotateX";
+	rename -uid "15713CBB-4FF7-528F-5697-E88EBEDD95E0";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_02_Ctrl_rotateY";
+	rename -uid "A0844246-424D-ECD3-D356-2AAD54F1771D";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_01_Ctrl_rotateZ";
+	rename -uid "03EC3412-4D18-3B7A-794C-FFBB319AE9A9";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 73.601869703557966 8 73.601869703557966
+		 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_01_Ctrl_rotateX";
+	rename -uid "5DFDF602-4127-441A-1168-9CA7979E64E8";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "R_Finger_03_Knuckle_01_Ctrl_rotateY";
+	rename -uid "347B1BE3-4291-9F6B-E122-088C3345409A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  0 0 8 0 13 0;
+createNode animCurveTA -n "Head_Ctrl_rotateX";
+	rename -uid "76B3C4DD-4960-CCFC-130F-A994F30E8D07";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 8 ".ktv[0:7]"  0 0 4 78.482653499999998 12 -75.248163 26 -75.248163
+		 33 52.106917500000009 38 -35.399154 44 12.397525835731255 48 0;
+createNode animCurveTA -n "Head_Ctrl_rotateY";
+	rename -uid "E1C9511D-46DF-04A7-A3C6-5E90B93B20D2";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 8 ".ktv[0:7]"  0 0 4 0 12 0 26 0 33 0 38 0 44 0 48 0;
+createNode animCurveTA -n "Head_Ctrl_rotateZ";
+	rename -uid "45E8DA21-464C-DED6-A152-38A79B1E4D95";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr -s 8 ".ktv[0:7]"  0 0 4 0 12 0 26 0 33 0 38 0 44 0 48 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "C928B7AB-47DF-C375-9463-0D8BBDF4D9C3";
+	rename -uid "069DF656-4E72-D684-2BD1-CAB6A14C37CE";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr -av -k on ".cch";
 	setAttr -av -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -k on ".o" 2;
-	setAttr -av ".unw" 2;
+	setAttr -k on ".o" 69;
+	setAttr -av ".unw" 69;
 	setAttr -av -k on ".etw";
 	setAttr -av -k on ".tps";
 	setAttr -av -k on ".tms";
@@ -1201,24 +1827,93 @@ connectAttr "Lower_Torso_Ctrl_rotateZ.o" "Lab1ProjRN.phl[33]";
 connectAttr "Upper_Torso_Ctrl_rotateX.o" "Lab1ProjRN.phl[34]";
 connectAttr "Upper_Torso_Ctrl_rotateY.o" "Lab1ProjRN.phl[35]";
 connectAttr "Upper_Torso_Ctrl_rotateZ.o" "Lab1ProjRN.phl[36]";
-connectAttr "R_Upper_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[37]";
-connectAttr "R_Upper_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[38]";
-connectAttr "R_Upper_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[39]";
-connectAttr "R_Lower_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[40]";
-connectAttr "R_Lower_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[41]";
-connectAttr "R_Lower_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[42]";
-connectAttr "R_Palm_Ctrl_rotateX.o" "Lab1ProjRN.phl[43]";
-connectAttr "R_Palm_Ctrl_rotateY.o" "Lab1ProjRN.phl[44]";
-connectAttr "R_Palm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[45]";
-connectAttr "L_Upper_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[46]";
-connectAttr "L_Upper_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[47]";
-connectAttr "L_Upper_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[48]";
-connectAttr "L_Lower_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[49]";
-connectAttr "L_Lower_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[50]";
-connectAttr "L_Lower_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[51]";
-connectAttr "L_Palm_Ctrl_rotateX.o" "Lab1ProjRN.phl[52]";
-connectAttr "L_Palm_Ctrl_rotateY.o" "Lab1ProjRN.phl[53]";
-connectAttr "L_Palm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[54]";
+connectAttr "Head_Ctrl_rotateX.o" "Lab1ProjRN.phl[37]";
+connectAttr "Head_Ctrl_rotateY.o" "Lab1ProjRN.phl[38]";
+connectAttr "Head_Ctrl_rotateZ.o" "Lab1ProjRN.phl[39]";
+connectAttr "R_Upper_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[40]";
+connectAttr "R_Upper_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[41]";
+connectAttr "R_Upper_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[42]";
+connectAttr "R_Lower_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[43]";
+connectAttr "R_Lower_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[44]";
+connectAttr "R_Lower_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[45]";
+connectAttr "R_Palm_Ctrl_rotateX.o" "Lab1ProjRN.phl[46]";
+connectAttr "R_Palm_Ctrl_rotateY.o" "Lab1ProjRN.phl[47]";
+connectAttr "R_Palm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[48]";
+connectAttr "L_Upper_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[49]";
+connectAttr "L_Upper_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[50]";
+connectAttr "L_Upper_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[51]";
+connectAttr "L_Lower_Arm_Ctrl_rotateX.o" "Lab1ProjRN.phl[52]";
+connectAttr "L_Lower_Arm_Ctrl_rotateY.o" "Lab1ProjRN.phl[53]";
+connectAttr "L_Lower_Arm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[54]";
+connectAttr "L_Palm_Ctrl_rotateX.o" "Lab1ProjRN.phl[55]";
+connectAttr "L_Palm_Ctrl_rotateY.o" "Lab1ProjRN.phl[56]";
+connectAttr "L_Palm_Ctrl_rotateZ.o" "Lab1ProjRN.phl[57]";
+connectAttr "R_Thumb_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[58]";
+connectAttr "R_Thumb_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[59]";
+connectAttr "R_Thumb_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[60]";
+connectAttr "R_Thumb_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[61]";
+connectAttr "R_Thumb_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[62]";
+connectAttr "R_Thumb_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[63]";
+connectAttr "R_Finger_01_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[64]";
+connectAttr "R_Finger_01_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[65]";
+connectAttr "R_Finger_01_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[66]";
+connectAttr "R_Finger_01_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[67]";
+connectAttr "R_Finger_01_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[68]";
+connectAttr "R_Finger_01_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[69]";
+connectAttr "R_Finger_01_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[70]";
+connectAttr "R_Finger_01_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[71]";
+connectAttr "R_Finger_01_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[72]";
+connectAttr "R_Finger_02_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[73]";
+connectAttr "R_Finger_02_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[74]";
+connectAttr "R_Finger_02_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[75]";
+connectAttr "R_Finger_02_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[76]";
+connectAttr "R_Finger_02_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[77]";
+connectAttr "R_Finger_02_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[78]";
+connectAttr "R_Finger_02_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[79]";
+connectAttr "R_Finger_02_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[80]";
+connectAttr "R_Finger_02_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[81]";
+connectAttr "R_Finger_03_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[82]";
+connectAttr "R_Finger_03_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[83]";
+connectAttr "R_Finger_03_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[84]";
+connectAttr "R_Finger_03_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[85]";
+connectAttr "R_Finger_03_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[86]";
+connectAttr "R_Finger_03_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[87]";
+connectAttr "R_Finger_03_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[88]";
+connectAttr "R_Finger_03_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[89]";
+connectAttr "R_Finger_03_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[90]";
+connectAttr "L_Thumb_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[91]";
+connectAttr "L_Thumb_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[92]";
+connectAttr "L_Thumb_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[93]";
+connectAttr "L_Thumb_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[94]";
+connectAttr "L_Thumb_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[95]";
+connectAttr "L_Thumb_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[96]";
+connectAttr "L_Finger_01_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[97]";
+connectAttr "L_Finger_01_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[98]";
+connectAttr "L_Finger_01_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[99]";
+connectAttr "L_Finger_01_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[100]";
+connectAttr "L_Finger_01_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[101]";
+connectAttr "L_Finger_01_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[102]";
+connectAttr "L_Finger_01_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[103]";
+connectAttr "L_Finger_01_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[104]";
+connectAttr "L_Finger_01_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[105]";
+connectAttr "L_Finger_02_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[106]";
+connectAttr "L_Finger_02_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[107]";
+connectAttr "L_Finger_02_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[108]";
+connectAttr "L_Finger_02_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[109]";
+connectAttr "L_Finger_02_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[110]";
+connectAttr "L_Finger_02_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[111]";
+connectAttr "L_Finger_02_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[112]";
+connectAttr "L_Finger_02_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[113]";
+connectAttr "L_Finger_02_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[114]";
+connectAttr "L_Finger_03_Knuckle_01_Ctrl_rotateZ.o" "Lab1ProjRN.phl[115]";
+connectAttr "L_Finger_03_Knuckle_01_Ctrl_rotateX.o" "Lab1ProjRN.phl[116]";
+connectAttr "L_Finger_03_Knuckle_01_Ctrl_rotateY.o" "Lab1ProjRN.phl[117]";
+connectAttr "L_Finger_03_Knuckle_02_Ctrl_rotateZ.o" "Lab1ProjRN.phl[118]";
+connectAttr "L_Finger_03_Knuckle_02_Ctrl_rotateX.o" "Lab1ProjRN.phl[119]";
+connectAttr "L_Finger_03_Knuckle_02_Ctrl_rotateY.o" "Lab1ProjRN.phl[120]";
+connectAttr "L_Finger_03_Knuckle_03_Ctrl_rotateZ.o" "Lab1ProjRN.phl[121]";
+connectAttr "L_Finger_03_Knuckle_03_Ctrl_rotateX.o" "Lab1ProjRN.phl[122]";
+connectAttr "L_Finger_03_Knuckle_03_Ctrl_rotateY.o" "Lab1ProjRN.phl[123]";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
